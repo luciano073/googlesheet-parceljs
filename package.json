@@ -1,0 +1,17 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "parcel watch ./src/index/html",
+    "glogin": "clasp login",
+    "gcreate": "clasp create --title \"First Vue App\" --rootDir ./appscript"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.59",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  }
+}
