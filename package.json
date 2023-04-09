@@ -2,7 +2,7 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "start": "parcel watch ./src/index/html",
+    "start": "parcel build ./src/index/html --dist-dir ./appscript",
     "glogin": "clasp login",
     "gcreate": "clasp create --title \"First Vue App\" --rootDir ./appscript"
   },
